@@ -1,0 +1,33 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahasumalya/notesApp.git"
+  },
+  "author": "Sumalya Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahasumalya/notesApp/issues"
+  },
+  "homepage": "https://github.com/sahasumalya/notesApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "fastify": "^3.12.0",
+    "fastify-cookie": "^5.1.0",
+    "fastify-express": "^0.3.2",
+    "fastify-swagger": "^4.3.1",
+    "guid": "0.0.12",
+    "install": "^0.13.0",
+    "joi": "^17.4.0",
+    "mongoose": "^5.11.16",
+    "npm": "^7.5.4",
+    "path": "^0.12.7"
+  }
+}

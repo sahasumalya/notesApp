@@ -1,0 +1,72 @@
+{
+    "post_notes": 
+        {
+            "schema" : {
+                "url" : "/api/post_notes",
+                "body" : {
+                    "type" : "object"
+                }
+            }
+        },
+
+    "get_notes": 
+        {
+            "schema" : {
+                "url" : "/api/get_notes",
+                "body" : {
+                    "type" : "object"
+                }
+            }
+        },
+    "update_notes": 
+    {
+        "schema" : {
+            "url" : "/api/update_notes",
+            "body" : {
+                "type" : "object"
+            }
+        }
+    },
+    "delete_notes": 
+    {
+        "schema" : {
+            "url" : "/api/delete_notes",
+            "body" : {
+                "type" : "object"
+            }
+        }
+    },
+
+    "login": 
+    {
+        "schema" : {
+            "url" : "/api/login",
+            "body" : {
+                "type" : "object"
+            }
+        }
+    },
+
+    "register": 
+    {
+        "schema" : {
+            "url" : "/api/register",
+            "body" : {
+                "type" : "object"
+            }
+        }
+    },
+
+    "logout": 
+    {
+        "schema" : {
+            "url" : "/api/logout",
+            "body" : {
+                "type" : "object"
+            }
+        }
+    }
+
+    
+    
+}
